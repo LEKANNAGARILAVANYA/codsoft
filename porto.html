@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .hero{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+        
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover{
+            color: red;
+        }
+        
+        .det{
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        
+        .det h1{
+            font-size: 50px;
+            color: #212121;
+            margin-bottom: 15px;
+        
+        }
+        
+        span{
+            color: orange;
+        }
+        .det p{
+            color: #555;
+            line-height: 22px;
+        }
+        
+        .det a{
+            background: #212121;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+        .det a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+        }
+        
+        .images{
+            position: absolute;
+            bottom: 80px;
+            right:200px;
+        }
+        
+        .images image{
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%);
+            transition: bottom 1s,left 1s
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="C:\Users\madha\OneDrive\Pictures\Saved Pictures\port (2).jpg" class="logo" width="200" height="200">
+                <ul>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Open Source</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Talks</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="det">
+                <h1>I'm Lavanya <span>Gowda</span></h1>
+                <p>This is my official portfolio website to show
+                    <br>Details and work experience in web development
+                    </p>
+                    <br>
+                    <a href="#">Contact Me</a>
+            </div>
+            <div class="images">
+                <img src="C:\Users\madha\OneDrive\Documents\images\vani.jpg" align="right" width="500" height="500">
+            </div>
+        </body>
+</html>
